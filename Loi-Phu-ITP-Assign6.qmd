@@ -1,0 +1,80 @@
+---
+title: "ITP-Shopify Store - Assignment 6 - Checkout, Policies, and Trust Signals"
+author: "Phu Loi"
+date: today
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: flatly
+    code-fold: true
+    code-overflow: wrap
+    code-tools: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+## Introduction
+
+This assignment turned out to connect directly to a discovery from a few weeks ago. In the OACP Google Merchant Center lab, my attempt to connect The 5th C Diamond to Merchant Center stopped on a store requirements check that flagged three specific gaps: no refund policy or terms of service linked in the footer, unconfirmed contact information, and a password-protected storefront. This assignment is where I actually fixed the first two of those, and reviewed checkout-related settings while I was at it.
+
+::: callout-note
+This is a practice Shopify store built for course purposes. No real payments are processed and no real transactions are conducted on this site.
+:::
+
+## Checkout Settings Review
+
+I reviewed my store's payment and checkout-related settings in Shopify without activating real payments. This confirmed what a customer would see at checkout and what still needs to be turned on before any real transaction could occur.
+
+![Payment and checkout settings reviewed in Shopify admin](images/checkout-settings.png)
+
+![Payments settings showing Shopify Payments not yet activated and PayPal added but inactive](images/payment-settings.png)
+
+## Policies Page Overview
+
+I reviewed my store's Policies page in Shopify admin, which lists every policy the store has and flags any that are missing.
+
+![Policies page in Shopify admin showing return, privacy, terms of service, shipping, and contact info, with legal notice not set](images/policies-page.png)
+
+## Shipping and Pickup Information
+
+I drafted the following shipping policy for the store:
+
+> **Shipping.** The 5th C Diamond ships fully insured within the United States. Orders are processed within 2 to 3 business days and typically arrive within 5 to 7 business days via signature-required delivery, since every package contains fine jewelry. Because each piece is a meaningful purchase, we do not offer local pickup at this time; all orders ship directly and discreetly to the address provided at checkout.
+
+## Return and Refund Policy
+
+I drafted the following return and refund policy:
+
+> **Returns and Refunds.** We want you to love your 5th C Diamond piece. Unworn items in their original condition and packaging may be returned within 30 days of delivery for a full refund. Custom or resized rings are final sale, since they are made specifically for the customer. To start a return, contact us with your order number and we will provide a prepaid, insured shipping label. Refunds are issued to the original payment method within 5 to 7 business days of us receiving the returned item.
+
+## Privacy Policy and Customer Data Statement
+
+I drafted the following customer data statement:
+
+> **Privacy.** The 5th C Diamond collects only the information needed to process and ship your order: your name, shipping address, email, and payment details, the last of which is handled securely by Shopify's payment processor and never stored on our servers. We do not sell customer data to third parties. Information is used solely to fulfill orders, respond to customer inquiries, and, if you opt in, send occasional updates about new collections.
+
+## Contact Information
+
+The store's Contact page includes an email address, a contact form, and a note that inquiries about custom orders or ring sizing receive a response within one business day. Visible, easy-to-find contact information was one of the specific gaps flagged during my Merchant Center connection attempt, so confirming it here closes that loop.[^1]
+
+[^1]: See my Week 6 OACP lab report, where Google's store requirements check specifically asked me to "confirm that you've added contact information to your online store."
+
+## Trust Signals Reflection
+
+Policies and store information work as trust signals because they answer the questions a customer is silently asking before they type in a credit card number, especially for a purchase like fine jewelry, where the average order is a significant amount of money and the product cannot be touched or verified in person before buying. A clear shipping policy tells them their package will arrive safely and be tracked. A generous, plainly worded return policy tells them the store is confident enough in its product to take the risk back. A privacy statement tells them their personal information will not be misused. And visible contact information tells them a real person is on the other end if something goes wrong. None of these policies affect the product itself, but together they lower the perceived risk of the purchase enough that a hesitant customer becomes a confident one.
+
+## CPP Farm Store Application
+
+For CPP Farm Store, the trust signals that matter most are different from a jewelry store's, because the purchase is small, frequent, and often decided in the moment rather than researched for days. The most important signals are practical and immediate: accurate store hours and location, since a customer who drives to a closed farm store will not easily give it a second chance, and clear pickup and payment information, including the specific detail from my Assignment 4 research that the store accepts Bronco Bucks and Meal Points, which is a trust signal aimed specifically at the campus community. A simple statement on freshness and where products come from matters more than a formal return policy, since a bruised apple is a five-dollar problem a staff member can solve on the spot, not a shipped-item dispute requiring a written policy. Finally, because the Farm Store operates under Cal Poly Pomona, a visible connection to the university, and a short explanation of how purchases support student agricultural education, doubles as both a credibility signal and the story that differentiates it from a regular grocery store.
+
+## Appendix
+
+GitHub Repository: <https://github.com/PhuLoi66/ITP-W08-Shopify-Store>
+
+GitHub Pages (Published Report): <https://phuloi66.github.io/ITP-W08-Shopify-Store/>
